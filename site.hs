@@ -73,7 +73,7 @@ main = hakyllWith myConfig $ do
 
 myConfig :: Configuration
 myConfig = defaultConfiguration
-  { deployCommand = "rsync -avezc 'ssh' \
+  { deployCommand = "rsync -ave 'ssh' \
   \_site/* bbrittain_benbrittain@ssh.phx.nearlyfreespeech.net:/home/public"
   }
 
