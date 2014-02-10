@@ -1,0 +1,180 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+
+
+@font-face {
+  font-family: 'Questrial';
+  src: url('/static/Questrial-Regular.ttf')
+}
+
+body {
+	font: 16px Helvetica, sans-serif;
+	width: 100%;
+	height: 100%;
+	background: #F0F0F0;
+}
+
+.wrapper {
+	width: 600px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	background: #FFFFFF;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 50px;
+	width: 100%;
+        background-color: grey;
+}
+
+.header ul li {
+  display: inline;
+  list-style-type: none;
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.header ul li a:hover {
+  text-decoration: none;
+}
+
+.header ul {
+  font-family: Helvetica, sans-serif;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-left: 100px;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+}
+
+.content a {
+  color: green;
+  text-decoration: none;
+}
+.content a:hover {
+  color: grey;
+  text-decoration: none;
+}
+.content img {
+  margin: 0px 10px 0px 10px;
+}
+.content p {
+  margin: 10px 10px 10px 10px;
+  text-align: justify;
+  text-justify: newspaper
+}
+.content ul li {
+  padding: 5px;
+  list-style-type: none;
+}
+
+.posts {
+  margin: 20px 0px 0px 0px;
+}
+.posts ul li a:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+ul li a {
+  text-decoration: none;
+}
+.posts ul {
+  padding: 0px 0px 0px 0px;
+}
+ul {
+  padding: 10px 10px 10px 10px;
+}
+.posts ul li a {
+  color: black;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.content h2 {
+  font-size: 18px;
+}
+
+.content {
+  margin: 10px 10px 10px 10px;
+  font-family: Questrial, Helvetica, sans-serif;
+}
+
+.info {
+  font-size: 18px;
+  padding: 4px 2px 2px 0px;
+}
+
+.posts {
+  border: solid grey;
+  padding: 10px 10px 10px 10px;
+}
+
+.caption {
+  display: none;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.figure img {
+  padding: 8px 0px 0px 0px;
+  max-height: 540px;
+  max-width: 540px;
+  border: solid grey 2px;
+}
+
+.figure {
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	width: 100%;
+	height: 19px;
+	background: white;
+	border-top: solid grey 1px;
+	position: fixed;
+        bottom: 0px;
+}
+
+.footer p {
+  font-family: Questrial, Helvetica, sans-serif;
+  font-size: 12px;
+  padding: 2px;
+}
+
+.footer a {
+  color: green;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: grey;
+}
+
